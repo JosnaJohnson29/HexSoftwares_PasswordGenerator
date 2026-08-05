@@ -35,9 +35,9 @@ choice=IntVar()
 Font=("arial",13,"bold")
 passwordLabel=Label(root,text="Password Generator",font=("Time New Roman",20,"bold"),bg="#FFEBCD",fg="#000000")
 passwordLabel.grid(pady=10)
+
 weakradiobutton=Radiobutton(root,text="weak",value=1,variable=choice,font=Font)
 weakradiobutton.grid(pady=5)
-
 
 mediumradiobutton=Radiobutton(root,text="medium",value=2,variable=choice,font=Font)
 mediumradiobutton.grid(pady=5)
